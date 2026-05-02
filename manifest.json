@@ -22,7 +22,6 @@
       "model": "assets/FishTrap.json",
       "id": "fish:fish_trap",
       "displayName": "Fish Trap",
-      "implementationKind": "structure",
       "implementation": "impl/structures/FishTrap.luau"
     }
   ],
