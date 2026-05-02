@@ -8,6 +8,15 @@
       "Runic"
     ]
   },
+  "recipes": [
+    {
+      "kind": "structure",
+      "ingredients": [
+        ["neanderthals:stick", 5]
+      ],
+      "yield": "fish:fish_trap"
+    }
+  ],
   "structures": [
     {
       "model": "assets/FishTrap.json",
@@ -16,7 +25,7 @@
       "implementationKind": "structure",
       "implementation": "impl/structures/FishTrap.luau",
 
-      "hitSound": "LeafHit"
+      "hitSound": "WoodHit"
     }
   ],
   "consumables": [
